@@ -12,7 +12,7 @@ You can use any widths, but I suggest sizes in main.py:
 Feel free to change the styling with other matplotlib functions.
 
 <div class="hint">
-    First of all you need to create arrays with all column positions with the same shape as gamesCounters accordingly (12,4)
+    First of all you need to create arrays with all column positions with the same shape as games_counters accordingly (12,4)
     For example:
     <pre>
     [[0,  3,   6,   9   ],

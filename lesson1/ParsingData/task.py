@@ -3,13 +3,17 @@ import numpy as np
 import pandas as pd
 
 
-def parseDataset():
+def solution():
+    return parse_dataset("dataset.csv")
+
+
+def parse_dataset(path_to_dataset):
     platforms = ["PS4", "XOne", "PC", "WiiU"]
     game_genres = ["Action", "Adventure", "Fighting", "Misc", "Platform", "Puzzle", "Racing", "Role-Playing", "Shooter",
-                  "Simulation", "Sports", "Strategy"]
+                   "Simulation", "Sports", "Strategy"]
     games_counters = np.zeros((len(game_genres), len(platforms)))
 
-    games = pd.read_csv("dataset.csv")  # reading dataset.csv
+    games = pd.read_csv(path_to_dataset)  # reading dataset.csv
     games = games[
         games["platform"].isin(platforms)]  # selecting only rows where platform column is in list of platforms
 

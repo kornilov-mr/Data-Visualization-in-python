@@ -1,13 +1,13 @@
 import unittest
 
 import numpy as np
-from task import parseDataset
+from task import solution
 
 
 # todo: replace this with an actual test
 class TestCase(unittest.TestCase):
     def test_Counter(self):
-        user_out_put = parseDataset()
+        user_out_put = solution()
         real_answer = np.array([[142, 81, 39, 35],
                                [28, 14, 8, 3],
                                [17, 5, 2, 2],

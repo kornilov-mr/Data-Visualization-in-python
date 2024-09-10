@@ -1,4 +1,4 @@
-from lesson1.ParsingData.task import parseDataset
+from lesson1.ParsingData.task import parse_dataset
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -8,7 +8,7 @@ if __name__ == "__main__":
     game_genres = ["Action", "Adventure", "Fighting", "Misc", "Platform", "Puzzle", "Racing", "Role-Playing", "Shooter",
                    "Simulation", "Sports", "Strategy"]
 
-    gamesCounters = parseDataset()
+    gamesCounters = parse_dataset("dataset.csv")
 
     single_bar_width = 0.25
     bar_padding = 1
