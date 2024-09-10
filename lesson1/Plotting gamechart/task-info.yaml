@@ -1,0 +1,14 @@
+type: theory
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 573
+        length: 875
+        placeholder_text: '# TODO create your own visualization (see description)'
+  - name: __init__.py
+    visible: false
+  - name: ChartWithWidths.png
+    visible: true
+  - name: endChart.png
+    visible: true

@@ -1,0 +1,9 @@
+type: marketplace
+title: Data Visualization in Python
+language: English
+summary: "A Course aiming to teach python programmers how to use libraries such as\
+  \ Matplotlib, pandas, numpy for fast and informative data visualization"
+programming_language: Python
+environment: unittest
+content:
+  - lesson1

@@ -1,0 +1,16 @@
+type: edu
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 393
+        length: 603
+        placeholder_text: '# TODO fill games_counters (see description)'
+  - name: tests/test_task.py
+    visible: false
+  - name: __init__.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+  - name: dataset.csv
+    visible: true
