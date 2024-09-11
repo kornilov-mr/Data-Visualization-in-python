@@ -14,7 +14,7 @@ if __name__ == "__main__":
     bar_padding = 1
     all_bar_width = single_bar_width * len(game_genres) + bar_padding
 
-    bar_positions = np.zeros((len(game_genres), len(platforms)))
+    bar_positions = np.zeros((len(game_genres), len(platforms))) # creates 2d array with zeros with shape (12,4)
 
     # example of plt.bar
     plt.bar([1, 2, 3, 4], [1, 4, 9, 16], width=single_bar_width, edgecolor='grey', label="example values")

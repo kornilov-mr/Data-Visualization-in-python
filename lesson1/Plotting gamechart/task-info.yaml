@@ -3,7 +3,7 @@ files:
   - name: main.py
     visible: true
     placeholders:
-      - offset: 759
+      - offset: 807
         length: 803
         placeholder_text: '# TODO create your own visualization (see description)'
   - name: __init__.py
