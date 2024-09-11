@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 468
-        length: 605
+        length: 604
         placeholder_text: '# TODO fill games_counters (see description)'
   - name: tests/test_task.py
     visible: false

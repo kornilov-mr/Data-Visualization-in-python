@@ -16,6 +16,9 @@ if __name__ == "__main__":
 
     bar_positions = np.zeros((len(game_genres), len(platforms)))
 
+    #example of plt.bar
+    plt.bar([1,2,3,4],[1,4,9,16],width=single_bar_width, edgecolor='grey', label="example values")
+
     # writing bar positions
     for genreIndex in range(len(game_genres)):  # looping through genres
         for platformsIndex in range(len(platforms)):  # looping through platforms
