@@ -6,4 +6,4 @@ summary: "A Course aiming to teach python programmers how to use libraries such 
 programming_language: Python
 environment: unittest
 content:
-  - lesson1
+  - Introduction lesson
