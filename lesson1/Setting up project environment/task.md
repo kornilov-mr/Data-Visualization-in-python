@@ -15,7 +15,7 @@ Installation:
 
 
 Lesson structure:
-This lesson consists of 2 Tasks:
+This lesson consists of 4 Tasks:
 - <a href="course://lesson1/Introduction to pandas/main.py">Introduction to pandas</a>.
 - <a href="course://lesson1/ParsingData/task.py">Data file parsing</a>, using pandas.
 - <a href="course://lesson1/Introduction to matplotlib/main.py">Introduction to matplotlib</a>.

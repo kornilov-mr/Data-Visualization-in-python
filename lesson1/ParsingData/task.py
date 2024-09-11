@@ -11,7 +11,7 @@ def parse_dataset(path_to_dataset):
     platforms = ["PS4", "XOne", "PC", "WiiU"]
     game_genres = ["Action", "Adventure", "Fighting", "Misc", "Platform", "Puzzle", "Racing", "Role-Playing", "Shooter",
                    "Simulation", "Sports", "Strategy"]
-    games_counters = np.zeros((len(game_genres), len(platforms)))
+    games_counters = np.zeros((len(game_genres), len(platforms)))  # creates 2d array with zeros with shape (12,4)
 
     games = pd.read_csv(path_to_dataset)  # reading dataset.csv
     games = games[

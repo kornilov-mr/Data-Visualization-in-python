@@ -6,7 +6,9 @@ Task is to extract information from **dataset.csv** about amount of games of giv
 
 Answer should be in 2d Array where i axis is genres and j axis is platforms <br>
 For example:
-<pre>[[148.  81.  39.  35.]  #Amount of Action games on PS4,XOne,PC and WiiU
+<pre>
+  PS4,XOne,  PC, WiiU
+[[148.  81.  39.  35.]  #Amount of Action games 
  [ 28.  14.   8.   3.]  #Amount of Adventure games
  [ 17.   5.   2.   2.]  #Amount of Fighting games
  [ 19.  17.   3.  13.]  #Amount of Adventure games

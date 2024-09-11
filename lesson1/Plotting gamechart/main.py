@@ -8,7 +8,7 @@ if __name__ == "__main__":
     game_genres = ["Action", "Adventure", "Fighting", "Misc", "Platform", "Puzzle", "Racing", "Role-Playing", "Shooter",
                    "Simulation", "Sports", "Strategy"]
 
-    gamesCounters = parse_dataset("dataset.csv")
+    games_counters = parse_dataset("dataset.csv")  # takes 2d Array from previous task
 
     single_bar_width = 0.25
     bar_padding = 1
@@ -16,8 +16,8 @@ if __name__ == "__main__":
 
     bar_positions = np.zeros((len(game_genres), len(platforms)))
 
-    #example of plt.bar
-    plt.bar([1,2,3,4],[1,4,9,16],width=single_bar_width, edgecolor='grey', label="example values")
+    # example of plt.bar
+    plt.bar([1, 2, 3, 4], [1, 4, 9, 16], width=single_bar_width, edgecolor='grey', label="example values")
 
     # writing bar positions
     for genreIndex in range(len(game_genres)):  # looping through genres
