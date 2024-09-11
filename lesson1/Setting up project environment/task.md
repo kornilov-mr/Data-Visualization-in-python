@@ -1,12 +1,12 @@
 
 
 This lesson requires some libraries, which don't come with python standard library,
-Therefore we need to install the libraries with **pip**.
+Therefore we need to install them with **pip**.
 
 Libraries required: 
-- matplotlib for plotting
-- numpy for convenient array initialization
-- pandas for extracting data from *.csv* files
+- **matplotlib** for plotting
+- **numpy** for convenient array initialization
+- **pandas** for extracting data from *.csv* files
 
 
 Installation:
